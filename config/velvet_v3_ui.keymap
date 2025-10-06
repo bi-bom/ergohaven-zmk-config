@@ -46,10 +46,10 @@
 
         Navigation {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                        &kp N6          &kp N7          &kp N8  &kp N9           &kp N0         &kp MINUS
-&kp CAPS   &mo 6   &trans    &trans    &trans    &kp INSERT                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT_ARROW  &kp PAGE_UP    &kp EQUAL
-&trans     &mo 5   &mkp MB3  &mkp MB2  &mkp MB1  &trans                        &kp HOME        &trans          &trans  &kp END          &kp PAGE_DOWN  &kp DELETE
-                   &trans    &trans    &trans    &trans      &trans    &trans  &mo 3           &trans          &trans  &trans
+&kp GRAVE  &kp LS(N1)    &kp LS(N2)    &kp LS(N3)    &kp LS(N4)    &kp LS(N5)                      &kp LS(N6)    &kp LS(N7)    &kp LS(N8)    &kp LS(N9)    &kp LS(N0)    &kp MINUS
+&kp CAPS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp EQUAL
+&trans     &mo 5         &mkp MB3      &mkp MB2      &mkp MB1      &mo 6                           &trans        &trans        &trans        &trans        &trans        &kp DELETE
+                         &trans        &trans        &trans        &trans        &trans    &trans  &mo 3         &trans        &trans        &trans
             >;
 
             display-name = "Navigation";
@@ -57,10 +57,10 @@
 
         Symbols {
             bindings = <
-&trans  &kp F1          &kp F2        &kp F3        &kp F4     &kp F5                    &kp F6    &kp F7    &kp F8  &kp F9     &kp F10   &kp F11
-&trans  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &sk LCTRL  &trans                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans    &kp F12
-&trans  &trans          &trans        &trans        &trans     &trans                    &kp HOME  &trans    &trans  &kp END    &kp NUBS  &trans
-                        &trans        &trans        &trans     &mo 3   &trans    &trans  &trans    &trans    &trans  &trans
+&trans  &kp F1          &kp F2        &kp F3        &kp F4     &kp F5                        &kp F6    &kp F7    &kp F8  &kp F9     &kp F10        &kp F11
+&trans  &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LEFT_GUI  &sk LCTRL  &kp INSERT                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp PAGE_UP    &kp F12
+&trans  &kp LC(Z)       &kp LC(X)     &kp LC(C)     &kp LC(V)  &kp NUBS                      &kp HOME  &trans    &trans  &kp END    &kp PAGE_DOWN  &kp DELETE
+                        &trans        &trans        &trans     &mo 3       &trans    &trans  &trans    &trans    &trans  &trans
             >;
 
             display-name = "Symbols";
